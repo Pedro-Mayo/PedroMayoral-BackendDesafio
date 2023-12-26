@@ -24,8 +24,9 @@ router.get("/", (req, res) => {
     if (limit < products.length) {
         products.length = limit;
     }
-
-    res.json({ products });
+    
+    res.render("index.handlebars")
+    //res.json({ products });
     return
 }
 )
