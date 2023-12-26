@@ -1,0 +1,96 @@
+{
+    "path": "./products.json",
+    "products": [
+        {
+            "title": "PRODUCTO 1",
+            "description": "PRODUCTO 1",
+            "price": 11,
+            "thumbnail": "PRODUCTO 1",
+            "code": 111,
+            "stock": 1,
+            "id": 0
+        },
+        {
+            "title": "PRODUCTO 2",
+            "description": "PRODUCTO 2",
+            "price": 22,
+            "thumbnail": "PRODUCTO 2",
+            "code": 222,
+            "stock": 2,
+            "id": 1
+        },
+        {
+            "title": "PRODUCTO 3",
+            "description": "PRODUCTO 3",
+            "price": 33,
+            "thumbnail": "PRODUCTO 3",
+            "code": 333,
+            "stock": 3,
+            "id": 2
+        },
+        {
+            "title": "PRODUCTO 4",
+            "description": "PRODUCTO 4",
+            "price": 44,
+            "thumbnail": "PRODUCTO 4",
+            "code": 444,
+            "stock": 4,
+            "id": 3
+        },
+        {
+            "title": "PRODUCTO 5",
+            "description": "PRODUCTO 5",
+            "price": 55,
+            "thumbnail": "PRODUCTO 5",
+            "code": 555,
+            "stock": 5,
+            "id": 4
+        },
+        {
+            "title": "PRODUCTO 6",
+            "description": "PRODUCTO 6",
+            "price": 66,
+            "thumbnail": "PRODUCTO 6",
+            "code": 666,
+            "stock": 6,
+            "id": 5
+        },
+        {
+            "title": "PRODUCTO 7",
+            "description": "PRODUCTO 7",
+            "price": 77,
+            "thumbnail": "PRODUCTO 7",
+            "code": 777,
+            "stock": 7,
+            "id": 6
+        },
+        {
+            "title": "PRODUCTO 8",
+            "description": "PRODUCTO 8",
+            "price": 88,
+            "thumbnail": "PRODUCTO 8",
+            "code": 888,
+            "stock": 8,
+            "id": 7
+        },
+        {
+            "title": "PRODUCTO 9",
+            "description": "PRODUCTO 9",
+            "price": 99,
+            "thumbnail": "PRODUCTO 9",
+            "code": 999,
+            "stock": 9,
+            "id": 8
+        },
+        {
+            "title": "PRODUCTO 10",
+            "description": "PRODUCTO 10",
+            "price": 1010,
+            "thumbnail": "PRODUCTO 10",
+            "code": 101010,
+            "stock": 10,
+            "id": 9
+        }
+    ],
+    "idEnum": 10
+}
