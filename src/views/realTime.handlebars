@@ -1,0 +1,15 @@
+<ol>
+    {{#each products}}
+    <li>
+        <p>Title: {{this.title}}</p>
+        <p>Description: {{this.description}}</p>
+        <p>Price: ${{this.price}}</p>
+        <p>Stock{{this.stock}}</p>
+    </li>
+    {{/each}}
+</ol>
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTime.js"></script>

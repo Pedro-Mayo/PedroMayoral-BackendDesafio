@@ -1,8 +1,6 @@
 import { Router } from "express";
 import ProductManager from '../managers/ProductManager.js'
 
-const pwd = "Products"
-
 const router = Router();
 
 const pm = new ProductManager();
@@ -11,7 +9,7 @@ const pm = new ProductManager();
 router.get("/", (req, res) => {
     const products = pm.getProducts();
     if (typeof req.query.limit === "undefined") {
-        res.json(products)
+        res.json(products);
         return
     }
 
@@ -25,8 +23,7 @@ router.get("/", (req, res) => {
         products.length = limit;
     }
     
-    res.render("index.handlebars")
-    //res.json({ products });
+    res.json({ products });
     return
 }
 )

@@ -1,0 +1,10 @@
+<ol>
+    {{#each products}}
+    <li>
+        <p>Title: {{this.title}}</p>
+        <p>Description: {{this.description}}</p>
+        <p>Price: ${{this.price}}</p>
+        <p>Stock{{this.stock}}</p>
+    </li>
+    {{/each}}
+</ol>

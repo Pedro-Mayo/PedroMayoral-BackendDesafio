@@ -3,8 +3,6 @@ import CartManager from "../managers/CartManager.js";
 
 const cm = new CartManager()
 
-const pwd = "Carts"
-
 const router = Router();
 
 router.get('/:cId', (req, res) => {
