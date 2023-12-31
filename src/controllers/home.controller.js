@@ -1,14 +1,28 @@
 import { Router } from "express";
-import ProductManager from "../managers/ProductManager.js";
-
-
+import fs from 'fs';
+const aFs = fs.promises;
 
 const router = Router();
-const pm = new ProductManager();
 
 
-router.get("/", (req, res)=>{
-    res.render("home", {products: pm.getProducts()})
+async function getProducts() {
+    
+let products = [];
+
+    try {
+        products = JSON.parse(await aFs.readFile(process.cwd() + "/output/productos.json")).products;
+    }
+    catch {
+    }
+
+    return products;
+}
+
+
+
+
+router.get("/", async (req, res)=>{
+    res.render("home", {products: await getProducts()})
 })
 
 
